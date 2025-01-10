@@ -12,7 +12,11 @@ format:
 
 ## In short
 
-We digitized the tables from the book ["Afstemningen i Sønderjylland (I og II ZONE)"](https://www.kb.dk/e-mat/ww1/114028018322.pdf) (Det Midlertidige Ministerium for Sønderjyske Anliggender, 1920) on the  1920 Danish-German referendum and made it available in the github repository here [github.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum](https://github.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum).  Everyone is welcome to use the data, but please cite the original source (the aforementioned book). This note contains some illustrations of the data.
+- We digitized the tables from this  ["book"](https://www.kb.dk/e-mat/ww1/114028018322.pdf) on the 1920 Danish-German referendum.
+- The data is available in this github repository: [github.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum](https://github.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum).  
+- Everyone is welcome to use the data.
+- Please cite the original source (the aforementioned book). 
+- This note contains some illustrations of the data.
 
 Please let us know if you find any mistakes (to: [mail@hhsievertsen.net](mail@hhsievertsen.net)).
 
