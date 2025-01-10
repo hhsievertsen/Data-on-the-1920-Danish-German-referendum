@@ -7,4 +7,4 @@ Please let us know if you find any mistakes (to: [mail@hhsievertsen.net](mail@hh
 Jakob Kaarup Jensen and Hans Henrik Sievertsen 
 
 
-<img src="map.png" alt="Minimum Wage Plot" width="300">
+<img src="map.png" alt="Minimum Wage Plot" width="450">
