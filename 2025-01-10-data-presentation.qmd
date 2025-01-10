@@ -34,7 +34,7 @@ The data is split into two datasets.
 
 ### Data on vote shares with and without non-residents (zone 1 only)
 
-The dataset [2025-01-10-votedata_with_nonresident_category.csv](2025-01-10-votedata.xlsx) contains the following five variables
+The dataset [https://raw.githubusercontent.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum/refs/heads/main/data/2025-01-10-votedata_with_nonresident_category.csv](2025-01-10-votedata.csv) contains the following five variables
 
 1. parish: The name of the parish (in Danish)
 2. votes_all: The total share (in %) of votes to become Danish
@@ -44,14 +44,14 @@ The dataset [2025-01-10-votedata_with_nonresident_category.csv](2025-01-10-voted
 
 ### Data on votes across both zones
 
-The dataset [2025-01-10-votedata_total.csv](2025-01-10-votedata.xlsx) contains the following five variables
+The dataset [https://raw.githubusercontent.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum/refs/heads/main/data/2025-01-10-votedata_total.csv](2025-01-10-votedata_total.csv) contains the following five variables
 
 1. parish: The name of the parish (in Danish)
 2. votes_dk: The total votes (count) for Denmark.
 3. votes_de: The total votes (count) for Germany.
 4. zone: the zone (1 or 2)
 
-The dataset [2025-01-10-votedata_total_merged_parishes.csv](2025-01-10-votedata.xlsx) is similar to [2025-01-10-votedata_total.xlsx](2025-01-10-votedata.xlsx), but we have manually merged parishes for the map below. 
+The dataset [https://raw.githubusercontent.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum/refs/heads/main/data/2025-01-10-votedata_total_merged_parishes.csv](2025-01-10-votedata_total_merged_parishes.csv) is similar to [https://raw.githubusercontent.com/hhsievertsen/Data-on-the-1920-Danish-German-referendum/refs/heads/main/data/2025-01-10-votedata_total.csv](2025-01-10-votedata_total.csv), but we have manually merged parishes for the map below. 
 
 ## Preparation
 
