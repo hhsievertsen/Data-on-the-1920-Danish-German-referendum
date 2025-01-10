@@ -8,4 +8,4 @@ Jakob Kaarup Jensen and Hans Henrik Sievertsen
 
 
 
-![](map.png | width=200)
+![]("map.png" | width=200)
