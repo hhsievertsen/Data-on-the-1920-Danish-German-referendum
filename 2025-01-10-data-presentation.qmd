@@ -8,7 +8,12 @@ format:
     code-fold: true
     code-summary: "Show the code"
     code-overflow: wrap
+    self-contained: true
+    grid: 
+      margin-width: 350px
 ---
+
+
 
 ## In short
 
@@ -586,7 +591,7 @@ ggplot(map_parishes) +
     midpoint = 50  ) +
   geom_sf(aes(fill = voteshare_dk), color = "#8a8a8a", size = 0.5) +  # Borders
   geom_sf(data = map_parishes %>% group_by(Zone) %>% summarise(), color = "black", size = 20, fill = NA) +
-  geom_sf_text(aes(label = paste(navn, "\n", sprintf("%.1f", voteshare_dk), "%")), 
+  geom_sf_text(aes(label = paste(navn, "\n", sprintf("%.1f", voteshare_dk), "")), 
              size = 4, color = "black", )+ 
   labs(fill = "% votes for Denmark", 
        title = "Parish votes in the 1920\n Danish-German Referendum \n",
@@ -594,7 +599,7 @@ ggplot(map_parishes) +
        \nFor Zone 2: Sild, Hanved og Bov, Flensborg og Adelby, \nN. Haksted og Vi, Risum og Lindholm, Dagebøl og Faretoft, Glamsbøl og Dedsbøl, \nKlangsbøl, Horsbøl og Embsbøl. \n \n Data Source: Det Midlertidige Ministerium for Sønderjyske Anliggender, 1920. \n Created by Jakob Kaarup Jensen & Hans Henrik Sievertsen. ") +
   theme(legend.position = c(0.1,0.9),
         plot.caption = element_text(hjust = 0,size=10),
-        plot.title =  element_text(hjust = 0.5,size=50,family="serif"),
+        plot.title =  element_text(hjust = 0.5,size=60,family="serif"),
         plot.background = element_rect(fill="#f2f6fc",color="#f2f6fc"),
         legend.text = element_text(size=15),
         legend.title = element_text(size=18),
